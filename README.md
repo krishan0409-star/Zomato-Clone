@@ -14,10 +14,6 @@ The main objective of this project is to practice frontend web development and u
 - **Hero Section:** Displays the Zomato branding with a background image.
 - **Search Bar:** Allows users to search for restaurants, cuisines, or dishes.
 - **Why Choose Us:** Highlights the major benefits of the food delivery platform.
-- **Feature Sections:**
-  - Fast Delivery
-  - Variety of Choices
-  - Easy Payment
 - **Footer:** Displays copyright information.
 
 ## 🛠️ Technologies Used
@@ -71,8 +67,7 @@ Follow these steps to run the project locally:
 1. Header and Navigation
 2. Hero Section with Search Bar
 3. Why Choose Us Section
-4. Food Delivery Features
-5. Footer
+4. Footer
 
 ## 🎯 Learning Outcomes
 
