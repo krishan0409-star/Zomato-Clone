@@ -1,0 +1,216 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Okra', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: #1c1c1c;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+}
+
+/* Header Navigation */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.logo img {
+    height: 35px;
+    object-fit: contain;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #e23744; /* Signature Zomato Red */
+}
+
+/* Hero Section (Full-screen background image) */
+main section:first-child {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    filter: brightness(0.5); /* Dims background to ensure crisp text contrast */
+}
+
+/* Zomato Hero Brand Title */
+main section:first-child h2 {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 4.5rem;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Hero Subtitle */
+main section:first-child p {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Search Bar */
+main section:first-child input {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 650px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+main section:first-child input:focus {
+    box-shadow: 0 4px 20px rgba(226, 55, 68, 0.5);
+    transform: scale(1.01);
+}
+
+/* Why Choose Us Section */
+main section:nth-child(2) {
+    padding: 70px 8%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+main section:nth-child(2) h2 {
+    font-size: 2.2rem;
+    color: #1c1c1c;
+    margin-bottom: 10px;
+}
+
+main section:nth-child(2) > p {
+    color: #696969;
+    font-size: 1.1rem;
+    margin-bottom: 45px;
+}
+
+/* Feature Cards Grid */
+.main-features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    padding: 32px 24px;
+    flex: 1;
+    min-width: 260px;
+    max-width: 350px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(226, 55, 68, 0.15);
+    border-color: #e23744;
+}
+
+.feature h3 {
+    color: #e23744;
+    font-size: 1.35rem;
+    margin-bottom: 12px;
+}
+
+.feature p {
+    color: #4f4f4f;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1c;
+    color: #808080;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    border-top: 4px solid #e23744;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 5%;
+    }
+
+    header ul {
+        gap: 15px;
+    }
+
+    header ul li a {
+        font-size: 0.95rem;
+    }
+
+    main section:first-child h2 {
+        font-size: 3rem;
+    }
+
+    main section:first-child p {
+        font-size: 1.4rem;
+    }
+
+    main section:first-child input {
+        width: 90%;
+        padding: 14px 18px;
+    }
+}
