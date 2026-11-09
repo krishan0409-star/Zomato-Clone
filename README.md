@@ -53,7 +53,7 @@ Follow these steps to run the project locally:
 1. Clone this repository:
 
    ```bash
-   git clone YOUR_REPOSITORY_LINK
+   git clone https://github.com/krishan0409-star/Zomato-Clone
    ```
 
 2. Navigate to the project folder:
