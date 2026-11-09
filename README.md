@@ -1,5 +1,4 @@
-# Zomato-Clone
-# Zomato – Food Delivery Website
+# 🍽️ Zomato – Food Delivery Website
 
 A simple frontend website inspired by Zomato, designed to provide users with an easy way to discover restaurants, explore food options, and search for their favourite dishes.
 
@@ -11,15 +10,15 @@ The main objective of this project is to practice frontend web development and u
 
 ## ✨ Features
 
-- Navigation Bar: Includes Investor Relations, Add Restaurant, Login, and Signup options.
-- Hero Section: Displays the Zomato branding with a background image.
-- Search Bar: Allows users to search for restaurants, cuisines, or dishes.
-- Why Choose Us: Highlights the major benefits of the food delivery platform.
-- Feature Sections:
+- **Navigation Bar:** Includes Investor Relations, Add Restaurant, Login, and Signup options.
+- **Hero Section:** Displays the Zomato branding with a background image.
+- **Search Bar:** Allows users to search for restaurants, cuisines, or dishes.
+- **Why Choose Us:** Highlights the major benefits of the food delivery platform.
+- **Feature Sections:**
   - Fast Delivery
   - Variety of Choices
   - Easy Payment
-- Footer: Displays copyright information.
+- **Footer:** Displays copyright information.
 
 ## 🛠️ Technologies Used
 
@@ -29,7 +28,7 @@ The main objective of this project is to practice frontend web development and u
 
 ## 📂 Project Structure
 
-text
+```text
 Zomato-Clone/
 │
 ├── index.html
@@ -45,7 +44,7 @@ Zomato-Clone/
 │   └── background.png
 │
 └── README.md
-
+```
 
 ## 🚀 Getting Started
 
@@ -53,19 +52,19 @@ Follow these steps to run the project locally:
 
 1. Clone this repository:
 
-   bash
+   ```bash
    git clone YOUR_REPOSITORY_LINK
-
+   ```
 
 2. Navigate to the project folder:
 
-   bash
+   ```bash
    cd Zomato-Clone
-   
+   ```
 
 3. Open `index.html` in your browser.
 
-   Alternatively, use the Live Server extension in VS Code.
+   Alternatively, use the **Live Server** extension in VS Code.
 
 ## 📸 Website Sections
 
@@ -85,7 +84,7 @@ Through this project, I practised:
 - Using images and designing webpage sections.
 - Understanding the basic structure of a food delivery website.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 - Make the website fully responsive.
 - Add restaurant listings and food categories.
@@ -93,13 +92,13 @@ Through this project, I practised:
 - Add login and signup functionality.
 - Improve UI with animations and transitions.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Krishan
+**Krishan**
 
 Frontend Development | Learning Web Development
 
-
+---
 
 ⭐ If you like this project, consider giving this repository a star!
 
